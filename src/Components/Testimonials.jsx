@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import avatarImage from "../assets/avatarImage.jpg";
+import avatarImage from "../assets/avatarImage.jpeg";
 export default function Testimonials() {
   return (
     <Section id="testimonials">
@@ -15,8 +15,8 @@ export default function Testimonials() {
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Priyanka</h4>
-              <span>Fresher-Full stack devloper</span>
+              <h4>Kunal</h4>
+              <span>Full stack devloper</span>
             </div>
           </div>
         </div>
@@ -28,8 +28,8 @@ export default function Testimonials() {
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Priyanka</h4>
-              <span>Fresher-Full stack devloper</span>
+              <h4>Kunal</h4>
+              <span>Full stack devloper</span>
             </div>
           </div>
         </div>
@@ -41,8 +41,8 @@ export default function Testimonials() {
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Priyanka</h4>
-              <span>Fresher-Full stack devloper</span>
+              <h4>Kunal</h4>
+              <span>Full stack devloper</span>
             </div>
           </div>
         </div>

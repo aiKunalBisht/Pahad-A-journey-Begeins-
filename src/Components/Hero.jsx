@@ -18,7 +18,7 @@ export default function Hero() {
         <div className="search">
           <div className="container">
             <label htmlFor="">Where you want to go</label>
-            <input type="text" placeholder="Search Your location" />
+            <input type="text" placeholder="Himalayas" />
           </div>
           <div className="container">
             <label htmlFor="">Check-in</label>
@@ -105,15 +105,16 @@ const Section = styled.div`
       button {
         padding: 1rem;
         cursor: pointer;
-        border-radius: 0.3rem;
+        border-radius: 2rem;
         border: none;
         color: white;
-        background-color: #4361ee;
+        background-color: #48CAE4;
         font-size: 1.1rem;
         text-transform: uppercase;
         transition: 0.3s ease-in-out;
         &:hover {
-          background-color: #023e8a;
+          background-color: #b9e2eb;
+          color:rgb(31, 41, 50);
         }
       }
     }
